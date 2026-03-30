@@ -8,8 +8,6 @@ The system reads log files, converts them into embeddings, stores them in a vect
 
 The application interface is built using Streamlit.
 
-🚀 Features
-
 ✅ Automated log file ingestion
 ✅ Semantic search on logs
 ✅ Root Cause Analysis using LLM
@@ -18,6 +16,7 @@ The application interface is built using Streamlit.
 ✅ Fast inference using Groq LLM
 
 🧠 System Architecture
+
 Log File (debug.log)
         │
         ▼
@@ -39,17 +38,23 @@ Retriever
 Groq LLM
         │
         ▼
+
+
 Root Cause Analysis
-🛠 Technologies Used
-Component	Technology
-LLM	Llama 3.1
-Framework	LangChain
-Vector DB	Chroma
-Embeddings	Sentence Transformers
-UI	Streamlit
-API Provider	Groq
-Language	Python
+| Component    | Technology            |
+| ------------ | --------------------- |
+| LLM          | Llama 3.1             |
+| Framework    | LangChain             |
+| Vector DB    | Chroma                |
+| Embeddings   | Sentence Transformers |
+| UI           | Streamlit             |
+| API Provider | Groq                  |
+| Language     | Python                |
+       
+
+
 📂 Project Structure
+
 log-rca-bot
 │
 ├── main.py              # Streamlit UI
@@ -64,6 +69,8 @@ log-rca-bot
 ├── .env                 # API keys
 ├── requirements.txt
 └── README.md
+
+
 ⚙️ Installation
 1️⃣ Clone Repository
 git clone https://github.com/yourusername/log-rca-bot.git
